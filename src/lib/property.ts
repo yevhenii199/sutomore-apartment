@@ -45,4 +45,4 @@ export const galleryImages: GalleryItem[] = [
   { src: `${BASE}/parking.webp`, label: "Parking", area: "wide" },
   { src: `${BASE}/kitchen.1.2.webp`, label: "Kitchen" },
   { src: `${BASE}/bathroom.1.2.webp`, label: "Bathroom" },
-] as const;
+];
