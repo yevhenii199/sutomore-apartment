@@ -33,7 +33,8 @@ export const property = {
   },
 };
 
-export const galleryImages = [
+type GalleryItem = { src: string; label: string; area?: "tall" | "wide" };
+export const galleryImages: GalleryItem[] = [
   { src: `${BASE}/terrace.webp`, label: "Terrace", area: "tall" },
   { src: `${BASE}/living-room.1.1.webp`, label: "Living room" },
   { src: `${BASE}/room-1.1.webp`, label: "Bedroom" },
